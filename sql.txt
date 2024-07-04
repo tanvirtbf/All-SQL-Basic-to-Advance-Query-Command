@@ -1,0 +1,33 @@
+1. Show all Database
+	SHOW DATABASES; 
+2. Create a new database 
+	CREATE DATABASE database_name;
+3. Select Database
+	USE database_name;
+4. How to find what database in
+	SELECT DATABASE();
+5. Drop or Delete a Database
+	DROP DATABASE database_name;
+6. Create a new Table
+	CREATE TABLE table_name(
+		id INT,
+		name VARCHAR(50),
+		city VARCHAR(50)
+	);
+7. Insert data into table 
+	INSERT INTO table_name(id,name,city)
+	VALUES
+	(1,"Tanvir","Dhaka"),
+	(2,"Sadia","Tiara"),
+	(3,"Maymuna","Brahmonbaria")
+
+	INSERT INTO table_name
+	VALUES
+	(1,"TANVIR","DHAKA"),
+
+	INSERT INTO table_name VALUES(1,"tANVIR"),(),(),...
+8. Read data in table
+	SELECT * FROM table_name;
+	SELECT column_name FROM table_name;
+9. Read data with condition
+	SELECT * FROM table_name WHERE id=2;
