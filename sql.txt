@@ -14,7 +14,11 @@
 		name VARCHAR(50),
 		city VARCHAR(50)
 	);
-7. Insert data into table 
+7. Show all tables in a database
+	SHOW TABLES;
+8. Show all column in a Table
+	DESC table_name;
+9. Insert data into table 
 	INSERT INTO table_name(id,name,city)
 	VALUES
 	(1,"Tanvir","Dhaka"),
@@ -26,8 +30,17 @@
 	(1,"TANVIR","DHAKA"),
 
 	INSERT INTO table_name VALUES(1,"tANVIR"),(),(),...
-8. Read data in table
+10. Read data in table
 	SELECT * FROM table_name;
 	SELECT column_name FROM table_name;
-9. Read data with condition
+11. Read data with condition
 	SELECT * FROM table_name WHERE id=2;
+12. Update query
+	UPDATE table_name
+	set contact_number = "01317277858"
+	where name = "Tanvir"
+13. Delete data from table
+	DELETE FROM table_name
+	WHERE name = 'Tanvir'
+14. Delete Table
+	DROP TABLE table_name ;
