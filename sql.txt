@@ -76,3 +76,13 @@
 	REPLACE('Hey World','Hey','Hello');
 	Ans: Hello World
 	select id, firstName,midName,REPLACE(lastName,'Maker','Hacker') as newLastName , city from student;
+24.Reverse function
+	select reverse('hello');
+	Ans: olleh
+	select id, reverse(firstName), midname, reverse(lastName), city from student;	
+25. Upper and Lower conversion
+	select UPPER('tavnir');
+	Ans: TANVIR
+	select LOWER('TAnvIR');
+	Ans: tanvir
+
