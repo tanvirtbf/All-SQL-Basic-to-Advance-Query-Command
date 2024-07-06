@@ -117,5 +117,6 @@
 	SELECT * FROM table_name ORDER BY column_name or column_number;
 34. Order by Descending order (Reverse order)
 	select * from table_name order by column_name DESC;
-35. 
+35. Like 
+	select * from student where desig LIKE "%sh%"; (No Case sensitive)
 
