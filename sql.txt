@@ -111,4 +111,11 @@
 31. Trim
 	SELECT TRIM("   hello world!       ");
 	Ans: hello world!
+32. Distinct clause
+	SELECT DISTINCT column_name from table_name;
+33. Order By (ascending order -> by default)
+	SELECT * FROM table_name ORDER BY column_name or column_number;
+34. Order by Descending order (Reverse order)
+	select * from table_name order by column_name DESC;
+35. 
 
