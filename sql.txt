@@ -119,4 +119,6 @@
 	select * from table_name order by column_name DESC;
 35. Like 
 	select * from student where desig LIKE "%sh%"; (No Case sensitive)
+36. Add column in existing table
+	ALTER TABLE table_name ADD COLUMN new_column_name INT NOT NULL DEFAULT 25000;
 
