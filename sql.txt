@@ -121,4 +121,8 @@
 	select * from student where desig LIKE "%sh%"; (No Case sensitive)
 36. Add column in existing table
 	ALTER TABLE table_name ADD COLUMN new_column_name INT NOT NULL DEFAULT 25000;
+37. Limit clause
+	select * from student LIMIT 3;
+	select * from student where emp_id <2 limit 3;
+
 
