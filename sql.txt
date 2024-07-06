@@ -85,4 +85,18 @@
 	Ans: TANVIR
 	select LOWER('TAnvIR');
 	Ans: tanvir
+26. character length
+	select CHAR_LENGTH('Hello World');
+	Ans: 11
+	select id, firstName,lastName, char_length(city) > 6 as result from student;
+	select * from student where char_length(city) > 6;
+27. Insert a word
+	select INSERT("Hello World",7,0,"Tanvir");
+	Ans: Hello TanvirWorld
+	select insert("Hello World",7,2,"Tanvir");
+	Ans: Hello Tanvirrld
+	select insert("Hello World",6,0,"Tanvir");
+	Ans: HelloTanvirWorld
+	select insert("Hello World",3,2,"Tanvir");
+	Ans: HeTanvirrld
 
