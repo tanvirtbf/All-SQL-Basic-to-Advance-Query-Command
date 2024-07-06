@@ -99,4 +99,16 @@
 	Ans: HelloTanvirWorld
 	select insert("Hello World",3,2,"Tanvir");
 	Ans: HeTanvirrld
+28. Left 
+	select LEFT("hey Tanvir ahmed",6);
+	Ans: hey Ta
+29. Right
+	SELECT RIGHT("hey Tanvir ahmed",4);
+	Ans: hmed
+30. Repeat
+	SELECT REPEAT("hello5",4);
+	Ans: hello5hello5hello5hello5
+31. Trim
+	SELECT TRIM("   hello world!       ");
+	Ans: hello world!
 
