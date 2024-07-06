@@ -44,3 +44,12 @@
 	WHERE name = 'Tanvir'
 14. Delete Table
 	DROP TABLE table_name ;
+15. Condition for Null Value
+	create table table_name(
+		id int NOT NULL,
+		name varchar(50) NOT NULL);
+16. Default value set
+	create table table_name(
+		id int NOT NULL,
+		name varchar(50) default="Tanvir");
+17. 
