@@ -60,4 +60,5 @@
 	create table table_name(
 		id int primary key auto_increment,
 		name varchar(50));
-
+19. Alias 
+	select id as 'Account_number' , name as 'My Name' from table_name;
