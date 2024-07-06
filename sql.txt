@@ -52,4 +52,12 @@
 	create table table_name(
 		id int NOT NULL,
 		name varchar(50) default="Tanvir");
-17. 
+17. Primary Key set 
+	CREATE TABLE table_name(
+		id int PRIMARY KEY,
+		name varchar(50) default="hello");
+18. Auto Increment id
+	create table table_name(
+		id int primary key auto_increment,
+		name varchar(50));
+
