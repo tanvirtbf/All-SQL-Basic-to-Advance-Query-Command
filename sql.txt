@@ -64,3 +64,5 @@
 	select id as 'Account_number' , name as 'My Name' from table_name;
 20. String Function Concat
 	select id, concat(firstName," ",lastName) as FullName from table_name;
+21. Concat_ws (seperater)
+	select id , CONCAT_WS("_",firstName,midName,lastName) as FullName from table_name;
