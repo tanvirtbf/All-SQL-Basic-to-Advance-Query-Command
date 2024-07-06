@@ -127,6 +127,6 @@
 38. Count clause
 	select count(*) from student where salary >22000 ;
 	Ans: 3
-39.
+
 
 
