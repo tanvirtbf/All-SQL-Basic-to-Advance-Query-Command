@@ -66,3 +66,8 @@
 	select id, concat(firstName," ",lastName) as FullName from table_name;
 21. Concat_ws (seperater)
 	select id , CONCAT_WS("_",firstName,midName,lastName) as FullName from table_name;
+22. Substring
+	select id, substring("Tanvir Ahmed",1,4) as fullTitle from table_name;
+	Ans: Tanv
+	select id, substring/substr("Tanvir Ahmed",-4) as fullTitle from table_name;
+	Ans: hmed
