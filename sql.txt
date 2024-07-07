@@ -75,7 +75,7 @@
 	REPLACE(str, from_str, to_str)
 	REPLACE('Hey World','Hey','Hello');
 	Ans: Hello World
-	select id, firstName,midName,REPLACE(lastName,'Maker','Hacker') as newLastName , city from student;
+	select id, firstName,midName,REPLACE(lastName,'Maker','Hacker') as newLastName , city from 	student;
 24.Reverse function
 	select reverse('hello');
 	Ans: olleh
@@ -99,6 +99,7 @@
 	Ans: HelloTanvirWorld
 	select insert("Hello World",3,2,"Tanvir");
 	Ans: HeTanvirrld
+	select id, firstName,lastName, INSERT(desig,7,0,'Hello World '),dept,salary from student where char_length(desig) >9;
 28. Left 
 	select LEFT("hey Tanvir ahmed",6);
 	Ans: hey Ta
@@ -127,6 +128,7 @@
 38. Count clause
 	select count(*) from student where salary >22000 ;
 	Ans: 3
+39.
 
 
 
