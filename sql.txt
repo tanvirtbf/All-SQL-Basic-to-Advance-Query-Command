@@ -135,4 +135,8 @@
 	select MAX(column_name) from table_name;
 41. Min function 
 	select Min(column_name) from table_name;
+42. SubQueries 
+	select * from table_name
+	where 
+	salary = (select MAX(salary) from table_name);
 
