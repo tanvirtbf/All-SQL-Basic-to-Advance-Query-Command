@@ -143,3 +143,7 @@
 	select sum(salary) from student;
 
 
+
+
+
+
