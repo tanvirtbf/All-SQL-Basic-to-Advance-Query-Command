@@ -139,4 +139,7 @@
 	select * from table_name
 	where 
 	salary = (select MAX(salary) from table_name);
+43. Sum 
+	select sum(salary) from student;
+
 
