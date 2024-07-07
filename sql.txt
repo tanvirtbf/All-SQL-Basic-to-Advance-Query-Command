@@ -141,4 +141,6 @@
 	salary = (select MAX(salary) from table_name);
 43. Sum 
 	select sum(salary) from student;
+44. Avg
+	select avg(salary) from student;
 
