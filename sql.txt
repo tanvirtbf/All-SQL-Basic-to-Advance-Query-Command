@@ -130,5 +130,6 @@
 	Ans: 3
 39. Group By
 	select dept from student GROUP BY dept;
+	select dept , count(id) from student group by dept;
 
 
