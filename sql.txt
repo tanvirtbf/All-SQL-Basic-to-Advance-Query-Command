@@ -133,4 +133,6 @@
 	select dept , count(id) from student group by dept;
 40. Max function 
 	select MAX(column_name) from table_name;
+41. Min function 
+	select Min(column_name) from table_name;
 
