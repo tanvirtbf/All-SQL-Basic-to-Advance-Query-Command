@@ -146,3 +146,4 @@
 45. Having
 	select dept, sum(salary) from table_name group by dept HAVING sum(salary) > 50000;
 
+
