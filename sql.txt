@@ -147,3 +147,4 @@
 	select dept, sum(salary) from table_name group by dept HAVING sum(salary) > 50000;
 46. Mysql Datatypes
 	CHAR(0 to 255) and VARCHAR(0 to 65535)
+	DECIMAL(5,3) where 5 is Total Digit wit decimal and 3 is digit after decimal
