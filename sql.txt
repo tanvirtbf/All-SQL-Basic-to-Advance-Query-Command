@@ -143,4 +143,6 @@
 	select sum(salary) from student;
 44. Avg
 	select avg(salary) from student;
+45. Having
+	select dept, sum(salary) from table_name group by dept HAVING sum(salary) > 50000;
 
