@@ -230,4 +230,7 @@
 	WHEN salary<3000 THEN 'Low salary'
 	ELSE 'NOT FOUND'
 	END AS "Salary Categroy' FROM table_name;
+51. IS NULL 
+	select * from table_name where dept IS NULL;
+
 	
