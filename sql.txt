@@ -244,5 +244,9 @@
 	ALTER TABLE table_name RENAME COLUMN prev_column_name TO new_column_name;
 56. Table Name Rename 
 	RENAME TABLE prev_name TO new_name;
+57. Modify Column Constraint or Data Types
+	ALTER TABLE table_name MODIFY column_name VARCHAR(60) DEFAULT '01317277858';
+	// column name and column constraint, data type change in same time
+	ALTER TABLE table_name CHANGE prev_column_name new_column_name VARCHAR(45) NOT NULL;
 
 	
