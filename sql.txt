@@ -153,4 +153,11 @@
 	DATE format yyyy-mm-dd
 	TIME format HH:MM:SS
 	DATETIME format 'yyyy-mm-dd HH:MM:SS'
+	create table person(
+    	jd DATE,
+    	jt TIME,
+    	jdt DATETIME);
+	INSERT INTO person
+    	VALUES
+    	('2023-05-06','12:00:00','2023-05-05 10:30:00');
 
