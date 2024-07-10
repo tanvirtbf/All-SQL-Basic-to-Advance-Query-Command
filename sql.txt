@@ -161,5 +161,8 @@
 	    	VALUES
 	    	('2023-05-06','12:00:00','2023-05-05 10:30:00');
 	Date Time Function:->
-		INSERT INTO table_name(jd,jt,jdt)
-		VALUES (CURDATE(),CURTIME(),NOW());
+		CURDATE(),CURTIME(),NOW()
+			INSERT INTO table_name(jd,jt,jdt)
+			VALUES (CURDATE(),CURTIME(),NOW());
+		DAYNAME,DAYOFWEEK,DAYOFMONTH,MONTHNAME
+	
