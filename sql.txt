@@ -233,4 +233,9 @@
 51. IS NULL 
 	select * from table_name where dept IS NULL;
 52. NOT LIKE (oposite of LIKE Clause)
+53. UNIQUE Constraint :=> for create unique values
+54. Check Constraint :
+	create table contact(
+		name varchar(50),
+		mobile varchar(15) UNIQUE CHECK (LENGTH(mobile) >= 11));
 	
