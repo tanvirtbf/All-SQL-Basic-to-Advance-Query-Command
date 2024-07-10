@@ -238,4 +238,9 @@
 	create table contact(
 		name varchar(50),
 		mobile varchar(15) UNIQUE CHECK (LENGTH(mobile) >= 11));
+55. Column add + Column Delete + Column Rename 
+	ALTER TABLE table_name ADD COLUMN new_column_name VARCHAR(50) NOT NULL DEFAULT 'HELLO';
+	ALTER TABLE table_name DROP COLUMN column_name;
+	ALTER TABLE table_name RENAME COLUMN prev_column_name TO new_column_name;
+
 	
