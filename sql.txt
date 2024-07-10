@@ -148,5 +148,6 @@
 46. Mysql Datatypes
 	CHAR(0 to 255) and VARCHAR(0 to 65535)
 	DECIMAL(5,3) where 5 is Total Digit wit decimal and 3 is digit after decimal
-
+	FLOAT - upto ~7 digits, takes 4 bytes of memory
+	DOUBLE - upto ~15 digits, takes 8 bytes of memory
 
