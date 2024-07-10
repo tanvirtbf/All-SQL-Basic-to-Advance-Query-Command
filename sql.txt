@@ -220,3 +220,14 @@
 48. In, NOT IN clause
 	SELECT * FROM table_name WHERE dept IN('Loan','Account','Cash');
 	SELECT * FROM table_name WHERE dept NOT IN('Loan','Account','Cash');
+49. Between
+	select * from table_name where char_length(dept) between 5 and 8;
+50. CASE (if else statement)
+	SELECT fname , lname , salary ,
+	CASE 
+	WHEN salary<4000 THEN 'Low Salary'
+	WHEN salary>3000 AND salary<4000 THEN 'Mid salary'
+	WHEN salary<3000 THEN 'Low salary'
+	ELSE 'NOT FOUND'
+	END AS "Salary Categroy' FROM table_name;
+	
