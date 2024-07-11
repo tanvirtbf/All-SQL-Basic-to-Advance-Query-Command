@@ -248,5 +248,8 @@
 	ALTER TABLE table_name MODIFY column_name VARCHAR(60) DEFAULT '01317277858';
 	// column name and column constraint, data type change in same time
 	ALTER TABLE table_name CHANGE prev_column_name new_column_name VARCHAR(45) NOT NULL;
-
+58. Relationship 
+	1. One to One 
+	2. One to Many 
+	3. Many to Many
 	
