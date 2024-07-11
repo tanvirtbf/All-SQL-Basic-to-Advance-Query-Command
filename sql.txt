@@ -262,3 +262,8 @@
 		amount int not null, 
 		customer_id int,
 		FOREIGN KEY (customer_id) REFERENCES customers(id));
+59. Join 
+	1. Cross join
+	2. Inner join
+	3. Left join
+	4. Right join
