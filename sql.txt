@@ -278,3 +278,10 @@
 		select name , SUM(amount) AS Total_Parchase from customers
 		INNER JOIN orders
 		ON orders.customer_id=customers.id GROUP BY name;
+	3. Left Join ->
+		select * from customers
+		LEFT JOIN orders
+		ON orders.customer_id=customers.id;
+	4. Right Join -> Similar with LEFT JOIN
+
+
