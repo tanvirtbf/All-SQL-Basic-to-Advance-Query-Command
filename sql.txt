@@ -270,3 +270,11 @@
 
 	1. Cross Join ->
 		select * from customers, orders;
+	2. Inner Join -> 
+		select * from customers 
+		INNER JOIN orders
+		ON orders.customer_id=customers.id;
+
+		select name , SUM(amount) AS Total_Parchase from customers
+		INNER JOIN orders
+		ON orders.customer_id=customers.id GROUP BY name;
