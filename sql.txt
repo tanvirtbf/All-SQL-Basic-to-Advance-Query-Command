@@ -283,6 +283,9 @@
 		LEFT JOIN orders
 		ON orders.customer_id=customers.id;
 	4. Right Join -> Similar with LEFT JOIN
-60. 
+select name as Customers 
+from Customers
+where name not in
+(select a.name from Customers AS a INNER JOIN Orders AS b ON a.id=b.customerId);
 
 
