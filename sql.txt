@@ -252,4 +252,13 @@
 	1. One to One 
 	2. One to Many 
 	3. Many to Many
-	
+
+	one to many relationship example: 
+	create table customers(
+		id int primary key auto_increment,
+		name varchar(50) not null);
+	create table orders(
+		ord_id int primary key auto_increment,
+		amount int not null, 
+		customer_id int,
+		FOREIGN KEY (customer_id) REFERENCES customers(id));
