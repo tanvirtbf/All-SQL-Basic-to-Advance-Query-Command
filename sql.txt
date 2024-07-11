@@ -284,3 +284,5 @@
 		ON orders.customer_id=customers.id;
 	4. Right Join -> Similar with LEFT JOIN
 60. 
+
+
