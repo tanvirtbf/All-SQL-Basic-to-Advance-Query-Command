@@ -288,4 +288,3 @@ from Customers
 where name not in
 (select a.name from Customers AS a INNER JOIN Orders AS b ON a.id=b.customerId);
 
-
