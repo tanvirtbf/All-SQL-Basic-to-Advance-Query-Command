@@ -8,6 +8,7 @@
 	SELECT DATABASE();
 5. Drop or Delete a Database
 	DROP DATABASE database_name;
+
 6. Create a new Table
 	CREATE TABLE table_name(
 		id INT,
