@@ -73,6 +73,7 @@
 	Ans: Tanv
 	select id, substring('Tanvir Ahmed', 8, 4) as fullTitle from table_name;
 	Ans : Ahme
+	amra chaile substring er bodole substr use korte pari . same result dibe
 	select id, substring/substr("Tanvir Ahmed",-4) as fullTitle from table_name;
 	Ans: hmed
 23. Replace string
