@@ -165,6 +165,11 @@
 	CURTIME() --- HH:MM:SS ei format e current time dibe . CURTIME er CUR mane holo Current
 	NOW() --- YYYY-MM-DD HH:MM:SS ai format e current date and time dibe 
 
+	DAYNAME() --- ki bar seta return kore . jemon - saturday, sunday, monday...
+	DAYOFMONTH() --- month ke 1,2,3,....11,12 evabe number diye return kore . jemon march hoile 3 , july hoile 7 return kore
+	DAYOFWEEK() --- week er ajk kon day seta return kore . normally sunday theke count start kore
+	MONTHNAME() --- month er name return kore 
+
 		create table person(
 	    	jd DATE,
 	    	jt TIME,
