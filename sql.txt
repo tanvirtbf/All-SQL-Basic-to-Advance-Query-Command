@@ -155,7 +155,9 @@
 	DECIMAL(5,3) where 5 is Total Digit wit decimal and 3 is digit after decimal
 	FLOAT - upto ~7 digits, takes 4 bytes of memory
 	DOUBLE - upto ~15 digits, takes 8 bytes of memory
-	DATE format yyyy-mm-dd
+
+	------ DATE DATATYPES ------
+	DATE format yyyy-mm-dd (eta jekono date
 	TIME format HH:MM:SS
 	DATETIME format 'yyyy-mm-dd HH:MM:SS'
 		create table person(
