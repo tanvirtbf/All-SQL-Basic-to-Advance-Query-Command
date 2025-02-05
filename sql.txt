@@ -187,6 +187,8 @@
 			INSERT INTO table_name(jd,jt,jdt)
 			VALUES (CURDATE(),CURTIME(),NOW());
 		DAYNAME,DAYOFWEEK,DAYOFMONTH,MONTHNAME,YEAR,HOUR,MINUTE
+
+
 	Date Formatting:-> DATE_FORMAT()
 		Format	Description
 		%a	Abbreviated weekday name (Sun to Sat)
