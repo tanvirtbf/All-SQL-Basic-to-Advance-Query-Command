@@ -160,6 +160,11 @@
 	DATE format yyyy-mm-dd (eta jekono date store korar jonno use hoy)
 	TIME format HH:MM:SS (eta jekono time store korar jonno use hoy)
 	DATETIME format 'yyyy-mm-dd HH:MM:SS' (date and time eksathe store korar jonno use hoy)
+
+	CURDATE() 
+	CURTIME()
+	NOW()
+
 		create table person(
 	    	jd DATE,
 	    	jt TIME,
