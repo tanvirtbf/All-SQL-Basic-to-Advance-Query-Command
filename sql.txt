@@ -170,9 +170,9 @@
 	DAYOFWEEK() --- week er ajk kon day seta return kore . normally sunday theke count start kore
 	MONTHNAME() --- month er name return kore 
 
-	HOUR() ---- 
-	MINUTE() ----
-	SECOND() ---- 
+	HOUR() ---- ai function er vitor time dile sekhan theke Hour return kore
+	MINUTE() ---- ai function er vitor time dile sekhan theke Minute return kore
+	SECOND() ---- ai function er vitor time dile sekhan theke Second return kore
 
 		create table person(
 	    	jd DATE,
